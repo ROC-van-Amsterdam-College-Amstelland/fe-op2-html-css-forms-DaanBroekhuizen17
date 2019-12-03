@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    height: 700px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#boven {
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+#boven_links {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+}
+
+#p1 {
+    color: white;
+}
+
+#boven_rechts {
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+#balk {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10%;
+    border-left: 2px solid white;
+}
+
+
+
+#onder {
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+#onder_links {
+    width: 10%;
+    height: 100%;
+    display: flex;
+}
+
+#onder_rechts {
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
